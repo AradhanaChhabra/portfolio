@@ -1,16 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-
 import { MotionConfig } from "framer-motion";
-
-import favicon from "./favicon.ico";
-
 import About from "@/modules/about";
 import Contact from "@/modules/contact";
 import CircleMouse from "@/modules/customMouse";
 import Hero from "@/modules/hero";
-import Head from "next/head";
+import Projects from "@/modules/projects";
 
 export default function HomePage() {
 	useEffect(() => {
@@ -26,7 +22,8 @@ export default function HomePage() {
 			<CircleMouse />
 			<Hero />
 			<About />
-			{/* <Contact /> */}
+			<Projects />
+			<Contact />
 		</MotionConfig>
 	);
 }
