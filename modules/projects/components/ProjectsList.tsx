@@ -22,7 +22,7 @@ export default function ProjectsList() {
 							title="AradhanaChhabra/Find-Mutuals "
 							description="A web app that helps you find the degree of separation between any two people"
 							github="https://github.com/AradhanaChhabra/findMutuals"
-							demo="degree-of-separation.netlify.app/"
+							demo="https://degree-of-separation.netlify.app/"
 						/>
 						<Project
 							title="AradhanaChhabra/Medi-Care"
