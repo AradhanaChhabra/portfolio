@@ -36,7 +36,7 @@ export default function ProjectsList() {
 						For more info about my work, check out my{" "}
 						<a
 							className="text-gradient hover:hover-gradient"
-							href="/pdf/aradhana.pdf"
+							href="/resume/aradhana.pdf"
 							target="_blank"
 							rel="noreferrer"
 						>
