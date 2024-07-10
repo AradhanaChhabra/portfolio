@@ -23,10 +23,10 @@ export default function Header() {
 			<br className="block md:block" />
 			<motion.span variants={wordAnimation}>with a knack for</motion.span>{" "}
 			<br className="block md:hidden" />
-			<motion.span variants={wordAnimation}>
-				making each piece of code{" "}
-			</motion.span>
-			<br className="hidden md:block" />
+			<motion.span variants={wordAnimation}>making each</motion.span>
+			<br className="block md:hidden" />{" "}
+			<motion.span variants={wordAnimation}>piece of code </motion.span>
+			<br className="hidden md:block" /> <br className="block md:hidden" />
 			<motion.span variants={wordAnimation} className="text-gradient">
 				pixel-perfect ✨
 			</motion.span>
