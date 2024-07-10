@@ -5,6 +5,8 @@ import reactSVG from "@/public/svg/react.svg";
 import recoilSVG from "@/public/svg/recoiljs.svg";
 import tailwindSVG from "@/public/svg/tailwindcss.svg";
 import typescriptSVG from "@/public/svg/typescript.svg";
+import htmlSVG from "@/public/svg/html.svg";
+import svelteSVG from "@/public/svg/svelte.svg";
 import { motion } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
 
@@ -45,12 +47,14 @@ export default function Skills() {
 			<SkillBadge svg={typescriptSVG} name="TypeScript" />
 			<SkillBadge svg={nextSVG} name="Next.js" />
 			<SkillBadge svg={reactSVG} name="React.js" />
+			<SkillBadge svg={svelteSVG} name="Svelte" />
 			<SkillBadge svg={recoilSVG} name="Recoil.js" />
 			<SkillBadge
 				svg={tailwindSVG}
 				name="TailwindCSS"
 				className="h-7 w-max lg:h-10"
 			/>
+			<SkillBadge svg={htmlSVG} name="HTML" />
 		</div>
 	);
 }

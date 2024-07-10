@@ -25,7 +25,7 @@ export default function HomePage() {
 		<MotionConfig transition={{ ease: [0.6, 0, 0, 0.9], duration: 1 }}>
 			<CircleMouse />
 			<Hero />
-			{/* <About /> */}
+			<About />
 			{/* <Contact /> */}
 		</MotionConfig>
 	);

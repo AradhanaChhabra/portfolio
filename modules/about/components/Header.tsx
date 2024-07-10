@@ -13,10 +13,10 @@ export default function AboutHeader() {
 				onMouseEnter={setMouseVariant.text}
 				onMouseLeave={setMouseVariant.default}
 			>
-				I&apos;m Aradhana, <br />a Frontend{" "}
-				<span className="text-gradient">Engineer</span> <br /> that creates
-				interactive <br />
-				<span className="text-gradient">web</span> applications.
+				I&apos;m Aradhana, <br /> passionate about{" "}
+				<span className="text-gradient"> evolution of human interaction</span>{" "}
+				<br />
+				with digital landscapes <br />
 			</motion.h2>
 		</ScrollOpacity>
 	);
