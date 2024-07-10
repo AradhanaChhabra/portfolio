@@ -26,7 +26,7 @@ export default function Hero() {
 				>
 					Home
 				</button>
-				<a className="scale-btn" href="pdf/aradhana.pdf" target="_blank">
+				<a className="scale-btn" href="/resume/aradhana.pdf" target="_blank">
 					Resume
 				</a>
 				<button
