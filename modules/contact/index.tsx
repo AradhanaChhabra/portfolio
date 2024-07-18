@@ -39,7 +39,7 @@ const Contact = () => {
 							</a>
 						</div>
 
-						<div className="relative flex-1 max-w-[70vw] md:max-w-[80vw] w-[58vw] max-h-[50vh] md:max-h-[400px] overflow-y-scroll  bg-scroll border border-gray-700 rounded-lg p-4 z-[1000000000]">
+						<div className="relative flex-1 max-w-[80vw] md:max-w-[80vw] w-[80vw] md:w-[58vw] max-h-[50vh] md:max-h-[400px] overflow-y-scroll  bg-scroll border border-gray-700 rounded-lg p-4 z-[1000000000]">
 							<CalApp />
 						</div>
 
