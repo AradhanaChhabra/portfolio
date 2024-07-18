@@ -12,6 +12,18 @@ span {
 	display: inline-block;
 }
 
+@layer utilities {
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.no-scrollbar {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+}
+
 @layer components {
 	.header {
 		@apply text-4xl sm:text-5xl md:text-6xl 2xl:text-8xl;

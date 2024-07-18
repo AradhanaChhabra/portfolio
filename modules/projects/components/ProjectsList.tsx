@@ -5,7 +5,7 @@ import Project from "./Project";
 export default function ProjectsList() {
 	return (
 		<>
-			<div className="h-[30vh] md:h-[50vh]" />
+			<div className="h-[6vh] md:h-[30vh]" />
 			<section
 				className="mt-36 flex w-screen justify-center md:mt-0"
 				id="projects"

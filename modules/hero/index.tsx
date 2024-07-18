@@ -19,7 +19,7 @@ export default function Hero() {
 				<button
 					onClick={() =>
 						document
-							.getElementById("projects")
+							.getElementById("home")
 							?.scrollIntoView({ behavior: "smooth" })
 					}
 					className="scale-btn"

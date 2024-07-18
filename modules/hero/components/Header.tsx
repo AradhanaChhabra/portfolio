@@ -22,7 +22,7 @@ export default function Header() {
 			<motion.span variants={wordAnimation}> software engineer</motion.span>
 			<br className="block md:block" />
 			<motion.span variants={wordAnimation}>with a knack for</motion.span>{" "}
-			<br className="block md:hidden" />
+			<br className="block xl:hidden " />
 			<motion.span variants={wordAnimation}>making each</motion.span>
 			<br className="block md:hidden" />{" "}
 			<motion.span variants={wordAnimation}>piece of code </motion.span>
